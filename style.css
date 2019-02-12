@@ -1,0 +1,85 @@
+/*
+ First External CSS Stylesheet
+ */
+
+/* Styling for HTML elements */
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 150%;
+  color: #333;
+  background: #efeee7;
+}
+
+header {
+  background: #333;
+}
+
+h1 {
+  padding: 20px 0;
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 28px;
+  color:  rgb(7, 172, 172);
+  background: white;
+  text-align: left;
+}
+
+h2 {
+  font-size: 24px;
+}
+p {
+  font-size: 20px;
+}
+/* a {
+  color: #d21034;
+} */
+
+/* Selecting elements by class */
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+/* Selecting elements by ID */
+/* #main-bio,
+#contact-info {
+  float: left;
+  size: 200px;
+}
+
+#figure {
+  position: relative;
+  width: 40px;
+  height: 40px;
+}
+
+#bio-name {
+  position: absolute;
+  top: 150px;
+  left: 30px;
+}
+
+#main-bio {
+  width: 70%;
+}
+
+#contact-info {
+  width: 30%;
+} */
+
+#landing-image {
+  width: 300px;
+  height: 250px;
+  margin-right: 20px;
+} 
+.navbar-brand {
+  width: 150px;
+  height: 50px;
+  margin-right: 20px;
+  font-size: 28px;
+  color: white;
+  background-color: rgb(7, 172, 172);
+}
