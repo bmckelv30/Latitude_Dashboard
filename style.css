@@ -18,8 +18,8 @@ header {
 }
 
 h1 {
-  padding: 20px 0;
-  margin: 0;
+  padding: 15px;
+  margin-right: 20px;
   margin-bottom: 20px;
   font-size: 28px;
   color:  rgb(7, 172, 172);
@@ -29,53 +29,63 @@ h1 {
 
 h2 {
   font-size: 24px;
+  color:  rgb(7, 172, 172);
+  background: white;
 }
 p {
   font-size: 20px;
 }
+
 /* a {
   color: #d21034;
 } */
 
 /* Selecting elements by class */
-.container {
+/* .container {
   width: 1024px;
   margin: 0 auto;
+} */
+.col-md-8,
+.col-md-3 {
+  background: white;
 }
 
+.img-thumbnail {
+  border: 0;
+}
 /* Selecting elements by ID */
-/* #main-bio,
-#contact-info {
-  float: left;
-  size: 200px;
-}
+/* #main-image{
+  width: 650px;
+  height: 500px;
+} */
 
-#figure {
+#viz-image {
+  float: right;
   position: relative;
-  width: 40px;
-  height: 40px;
+  width: 200px;
+  height: 200px;
 }
 
-#bio-name {
+/* #bio-name {
   position: absolute;
   top: 150px;
   left: 30px;
-}
-
-#main-bio {
-  width: 70%;
-}
-
-#contact-info {
-  width: 30%;
 } */
+
+/* #main-bio {
+  width: 70%;
+} */
+
+/* #contact-info {
+  width: 30%;
+} */ 
 
 #landing-image {
   width: 300px;
   height: 250px;
   margin-right: 20px;
 } 
-.navbar-brand {
+.navbar-default .navbar-brand {
   width: 150px;
   height: 50px;
   margin-right: 20px;
