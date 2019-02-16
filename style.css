@@ -13,10 +13,6 @@ body {
   background: #efeee7;
 }
 
-header {
-  background: #333;
-}
-
 h1 {
   padding: 15px;
   margin-right: 20px;
@@ -43,9 +39,14 @@ p {
 
 
 /* Selecting elements by class */
-.col-md-10,
-.col-md-8,
-.col-md-3 {
+.col-md-10{  
+  padding: 20px;
+  background: white;
+  border: 0;
+}
+
+.box {
+  padding: 20px;
   background: white;
   border: 0;
 }
@@ -66,6 +67,12 @@ p {
   background:white;
 }
 
+.sidebar {
+  background:white;
+  padding: 20px;
+  width: 100%;
+}
+
 /* Selecting elements by ID */
 #viz-image {
   float: right;
@@ -79,6 +86,13 @@ p {
   height: 250px;
   margin-right: 20px;
 } 
+
+#main-image {
+  width: 700px;
+  height: 500px;
+  margin-right: 20px;
+} 
+
 #comp-image {
   width: 400px;
   height: 300px;
@@ -91,4 +105,14 @@ p {
   font-size: 28px;
   color: white;
   background-color: rgb(7, 172, 172);
+}
+/* Adding media queries to show the drop-down when the screen is smaller than 480 pixels */
+@media (max-width: 480px) {
+  .navbar li {
+    padding: 10px;
+  }
+
+ #navbar-collapse {
+   width: auto;
+  }
 }
