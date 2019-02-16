@@ -37,12 +37,11 @@ p {
 }
 
 
-
 /* Selecting elements by class */
-.col-md-10{  
+.col-md-10,
+.col-md-5{  
   padding: 20px;
   background: white;
-  border: 0;
 }
 
 .box {
@@ -79,6 +78,7 @@ p {
   position: relative;
   width: 200px;
   height: 200px;
+  display: flex
 }
 
 #landing-image {
@@ -111,8 +111,8 @@ p {
   .navbar li {
     padding: 10px;
   }
-
- #navbar-collapse {
-   width: auto;
-  }
+  
+ .navbar-toggle {
+    display: block;
+}
 }
