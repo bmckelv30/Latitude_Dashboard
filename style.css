@@ -43,6 +43,7 @@ p {
 
 
 /* Selecting elements by class */
+.col-md-10,
 .col-md-8,
 .col-md-3 {
   background: white;
